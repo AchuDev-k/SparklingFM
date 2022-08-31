@@ -31,7 +31,7 @@ onMounted(() => {
           <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg">
               <a class="navbar-brand" href="/">
-                <img src="assets/images/logo.png" alt="" class="img-fluid">
+                <img src="../assets/images/logo.png" alt="" class="img-fluid">
               </a>
               <button
                 class="navbar-toggler"

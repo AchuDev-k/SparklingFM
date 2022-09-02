@@ -15,7 +15,7 @@ const heading = inject('heading')
 const seoTitle = inject('seoTitle')
 const headerText = inject('headerText')
 
-heading.value = headerText.value
+// heading.value = headerText.value
 
 const {data, refresh} = await useAsyncData('tag', async () => {
   const filter = { category_slug: slug }

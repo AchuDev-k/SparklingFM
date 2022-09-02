@@ -6,7 +6,7 @@
           <div class="footer-widget">
             <div class="logo">
               <a href="#">
-                <img src="assets/images/logo.png" 
+                <img src="../assets/images/logo.png" 
                 width="200px"
                 alt="">
               </a>
@@ -28,9 +28,15 @@
           </div>
         </div>
         <div class="col-xl-5 col-lg-4 col-md-12 col-sm-12 offset-xl-1">
-          <div class="footer-widget">
+          <div class="footer-widget text-center">
+            <h2>Contact Us</h2>
             <ul class="links">
-              <li><a href=""></a></li>
+              <li><b>Address:</b>Sparkling Towers Royal Farm Estate Water intake road off Lemma road Ikot Effanga, Calabar,Nigeria </li>
+              <li><b>Email:</b>Sparkling923fm@gmail.com</li>
+              <li><b>Telephone:</b>08092300023</li>
+              <li class="butter-logo"><a href="https://buttercms.com">
+              <!-- <img src="../assets/images/buttercms.png" alt="" style="width:180px; height:80px;"> -->
+              </a></li>
             </ul>
           </div>
         </div>
@@ -66,6 +72,17 @@ defineProps(["menuItems", "activeLink"]);
   margin-left: 4px;
   margin-right: 4px;
 }
+.footer-widget {
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+.footer-widget li{
+  margin-top: 1rem;
+}
+.footer-widget h2{
+  font-size: 1.5rem;
+  margin-bottom: 1.6rem;
+}
 @media only screen and (max-width: 600px) {
   .copyright{
     flex-direction: column;
@@ -74,5 +91,28 @@ defineProps(["menuItems", "activeLink"]);
   .slash{
     display: none;
   }
+  .footer-widget h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .links li{
+    margin-top: 0.5rem;
+    font-size: 0.6rem;
+  }
+  .copyright p{
+    font-size: 0.5rem;
+  }
+  .footer-widget h3{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 250px) {
+  .butter-logo{
+    display: none;
+  }
+  .logo{
+    display: none;
+  }
+  
 }
 </style>

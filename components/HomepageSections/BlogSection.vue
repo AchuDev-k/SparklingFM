@@ -5,14 +5,7 @@
         <div class="col-lg-6 col-md-10">
           <div class="section-title text-center">
             <h2>Latest News</h2>
-            <!-- <p>
-              Butter also has a built in blog engine which makes it dead simple
-              to launch a new company blog.
-            </p> -->
             <p>
-              <!-- <nuxt-link class="main-btn btn-hover mt-5" to="/blog/">
-                View All News
-              </nuxt-link> -->
             </p>
           </div>
         </div>

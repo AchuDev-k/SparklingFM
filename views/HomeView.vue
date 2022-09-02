@@ -60,18 +60,6 @@ onMounted(() => {
         :key="index"
         :fields="item.fields"
       />
-      <features-section
-        v-if="item.type === 'features'"
-        :key="index"
-        :fields="item.fields"
-      />
-      <!-- <client-only> -->
-        <testimonials-section
-          v-if="item.type === 'testimonials'"
-          :key="index"
-          :fields="item.fields"
-        />
-      <!-- </client-only> -->
     </template>
     <blog-section :blog-posts="data.blogPosts" />
     <section class="category">

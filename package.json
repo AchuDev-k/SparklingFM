@@ -13,10 +13,11 @@
     "postcss": "^8.4.16"
   },
   "dependencies": {
+    "@chenfengyuan/vue-carousel": "^2.0.0",
     "buttercms": "^1.2.8",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "tiny-slider": "^2.9.4",
-    "vue": "^3.2.31"
+    "vue": "^3.2.34"
   }
 }

@@ -20,7 +20,7 @@
   </section>
 </template>
 
-<script setup>
+// <script setup>
 console.error(
   "Your Butter token might be set to an invalid value. Please verify your token is correct."
 );

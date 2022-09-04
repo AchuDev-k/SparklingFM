@@ -18,7 +18,7 @@ const { handleMounted } = inject("layout")
 
 const props = defineProps(['slug'])
 
-const {data} = await useAsyncData('home-data', async () => {
+const {data,refresh} = await useAsyncData('home-data', async () => {
   const pageSlug = props.slug ?? "landing-page-with-components";
   try{
     const page = await $butterCMS?.page.retrieve(
@@ -27,7 +27,7 @@ const {data} = await useAsyncData('home-data', async () => {
     );
     const pageData = page?.data.data;
     //to increase number of blog posts on home screen
-    const posts = await $butterCMS?.post.list({ page: 1, page_size: 6, });
+    const posts = await $butterCMS?.post.list({ page: 1, page_size: 3});
     const blogPosts = posts?.data.data;
     return {
       pageData,

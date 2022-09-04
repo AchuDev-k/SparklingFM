@@ -1,5 +1,8 @@
 <template>
-  <section id="home" class="hero-section">
+<div>
+  
+</div>
+  <!-- <section id="home" class="hero-section">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-xl-6 col-lg-6 col-md-10">
@@ -17,7 +20,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </template>
 
 // <script setup>

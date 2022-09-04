@@ -62,7 +62,7 @@ onMounted(() => {
       />
     </template>
     <blog-section :blog-posts="data.blogPosts" />
-    <!-- <section class="category">
+    <section class="category">
       <div class="widget categories-widget">
       <h5 class="widget-title">Categories</h5>
       <ul class="categories-list">
@@ -73,7 +73,7 @@ onMounted(() => {
         </li>
       </ul>
     </div>
-    </section> -->
+    </section>
     <div class="download">
                 <a href="../assets/files/advert.pdf" download="Advert">Advertisments? Click here -></a>
         </div>

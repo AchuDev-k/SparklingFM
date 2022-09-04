@@ -41,7 +41,7 @@
                 <li><b>Telephone: </b>07037404903</li>
               </div>
               <li class="butter-logo"><a href="https://buttercms.com">
-              <img src="../assets/images/buttercms.png" alt="" style="width:180px; height:80px;">
+              <a href="https://ibb.co/2NJDmVw"><img src="https://i.ibb.co/GTmKBYX/butter-b.png" width="200px" alt="butter-b" border="0"></a>
               </a></li>
             </ul>
           </div>

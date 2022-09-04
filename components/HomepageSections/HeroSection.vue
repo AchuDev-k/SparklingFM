@@ -1,7 +1,6 @@
 <template>
 <div class="body">
  <div class="header">
-    
   </div>
 </div>
 </template>
@@ -13,6 +12,9 @@ const props = defineProps(["fields"]);
 <style scoped>
 .header{
   background: url('assets/images/background.jpeg');
+   /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -74,6 +74,9 @@ onMounted(() => {
       </ul>
     </div>
     </section>
+    <div class="download">
+                <a href="../assets/files/advert.pdf" download="Advert">Advertisments? Click here -></a>
+        </div>
   </div>
 </template>
 
@@ -83,10 +86,18 @@ onMounted(() => {
   padding-left: 5rem;
   padding-right: 5rem;
 }
+.download a{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
 @media only screen and (max-width: 600px) {
   .category{
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .download{
+    margin-left: 1rem;
   }
 }
 </style>

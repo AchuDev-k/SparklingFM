@@ -10,7 +10,16 @@ export const basicBlogLinks = [
   {
     to: "/Oap",
     text: "Oap"
+  },
+  {
+    to: "/About",
+    text: "About"
+  },
+  {
+    to: "/Program",
+    text: "Program"
   }
+  
 ];
 
 export const formatTime = (time) => new Date(time).toLocaleString();

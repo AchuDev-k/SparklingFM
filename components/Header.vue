@@ -31,7 +31,7 @@ onMounted(() => {
           <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg">
               <a class="navbar-brand" href="/">
-                <img src="../assets/images/logo.png" alt="" class="img-fluid">
+                <img src="https://i.ibb.co/QrC7C7b/logo.png"  alt="" class="img-fluid">
               </a>
               <button
                 class="navbar-toggler"
@@ -73,8 +73,10 @@ onMounted(() => {
                     <li><nuxt-link tag="li"  to="/About" class="nuxt-link-exact-active">About</nuxt-link></li>
                     <li><nuxt-link tag="li"  to="/Oap" class="nuxt-link-exact-active">OAPs</nuxt-link></li>
                     <li><nuxt-link to="/blog/" class="nuxt-link-exact-active">News</nuxt-link></li>
+                    <li tag="li"><nuxt-link to="/Program" class="nuxt-link-exact-active">Programmes</nuxt-link></li>
                     <li> <a href="https://mixlr.com/sparkling923fm--2" class="nuxt-link-exact-active">Listen Live</a> </li>
                     <li><nuxt-link to="/Contact" class="nuxt-link-exact-active">Contact</nuxt-link></li>
+                    
                   </ul>
                 </div>
               </div>

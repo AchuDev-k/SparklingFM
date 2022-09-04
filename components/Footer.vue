@@ -5,11 +5,15 @@
         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
           <div class="footer-widget">
             <div class="logo">
-              <a href="#">
-                <img src="../assets/images/logo.png" 
-                width="200px"
+              <!-- <a href="#">
+                <img src="https://i.ibb.co/xJfKfKC/logo.png" 
+                width="100px"
                 alt="">
-              </a>
+              </a> -->
+              <a href="https://imgbb.com/">
+              <img src="https://i.ibb.co/QrC7C7b/logo.png" 
+              width="130px"
+              alt="logo" border="0"></a>
             </div>
             <p class="desc">
               Your radio,your shine!
@@ -33,9 +37,11 @@
             <ul class="links">
               <li><b>Address:</b>Sparkling Towers Royal Farm Estate Water intake road off Lemma road Ikot Effanga, Calabar,Nigeria </li>
               <li><b>Email:</b>Sparkling923fm@gmail.com</li>
-              <li><b>Telephone:</b>08092300023</li>
+              <div>
+                <li><b>Telephone: </b>07037404903</li>
+              </div>
               <li class="butter-logo"><a href="https://buttercms.com">
-              <!-- <img src="../assets/images/buttercms.png" alt="" style="width:180px; height:80px;"> -->
+              <img src="../assets/images/buttercms.png" alt="" style="width:180px; height:80px;">
               </a></li>
             </ul>
           </div>

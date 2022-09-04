@@ -37,7 +37,7 @@ const {data} = await useAsyncData('home-data', async () => {
     setError(e)
     return null
   }
-}, {lazy: true})
+}, {lazy: false})
 
 
 onMounted(() => {

@@ -27,7 +27,7 @@ const {data} = await useAsyncData('home-data', async () => {
     );
     const pageData = page?.data.data;
     //to increase number of blog posts on home screen
-    const posts = await $butterCMS?.post.list({ page: 1, page_size: 3, });
+    const posts = await $butterCMS?.post.list({ page_size: 6, });
     const blogPosts = posts?.data.data;
     return {
       pageData,

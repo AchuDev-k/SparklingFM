@@ -18,7 +18,7 @@ const { handleMounted } = inject("layout")
 
 const props = defineProps(['slug'])
 
-const {data} = await useAsyncData('home-data', async () => {
+const {data,refresh} = await useAsyncData('home-data', async () => {
   const pageSlug = props.slug ?? "landing-page-with-components";
   try{
     const page = await $butterCMS?.page.retrieve(
@@ -41,7 +41,7 @@ const {data} = await useAsyncData('home-data', async () => {
 
 
 onMounted(() => {
-  handleMounted()
+  handleMounted(refresh)
 })
 
 </script>

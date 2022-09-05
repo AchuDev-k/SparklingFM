@@ -37,12 +37,13 @@ const {data,refresh} = await useAsyncData('home-data', async () => {
     setError(e)
     return null
   }
-}, {lazy: false})
-
-
-onMounted(() => {
-  handleMounted(refresh)
 })
+
+
+onMounted(refresh)
+// onMounted(() => {
+//   handleMounted(refresh)
+// })
 
 </script>
 

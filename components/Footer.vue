@@ -5,12 +5,7 @@
         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
           <div class="footer-widget">
             <div class="logo">
-              <!-- <a href="#">
-                <img src="https://i.ibb.co/xJfKfKC/logo.png" 
-                width="100px"
-                alt="">
-              </a> -->
-              <a href="https://imgbb.com/">
+              <a href="#">
               <img src="https://i.ibb.co/QrC7C7b/logo.png" 
               width="130px"
               alt="logo" border="0"></a>
@@ -31,7 +26,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-4 col-md-12 col-sm-12 offset-xl-1">
+        <div class="col-xl-5 col-lg-4 col-md-12 col-sm-12 offset-xl-1 contact">
           <div class="footer-widget text-center">
             <h2>Contact Us</h2>
             <ul class="links">
@@ -41,7 +36,7 @@
                 <li><b>Telephone: </b>07037404903</li>
               </div>
               <li class="butter-logo"><a href="https://buttercms.com">
-              <a href="https://ibb.co/2NJDmVw"><img src="https://i.ibb.co/GTmKBYX/butter-b.png" width="200px" alt="butter-b" border="0"></a>
+              <a href="https://buttercms.com/"><img src="https://i.ibb.co/GTmKBYX/butter-b.png" width="200px" alt="butter-b" border="0"></a>
               </a></li>
             </ul>
           </div>
@@ -98,7 +93,7 @@ defineProps(["menuItems", "activeLink"]);
     display: none;
   }
   .footer-widget h2{
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
   }
   .links li{
@@ -109,8 +104,12 @@ defineProps(["menuItems", "activeLink"]);
     font-size: 0.5rem;
   }
   .footer-widget h3{
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
+  .footer-widget {
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
 }
 @media screen and (max-width: 250px) {
   .butter-logo{

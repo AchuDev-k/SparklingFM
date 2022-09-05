@@ -22,4 +22,22 @@
 defineProps(["heading", "links", "text"]);
 </script>
 
-<style scoped></style>
+<style scoped>
+@media only screen and (max-width: 600px) {
+  .section-title{
+  margin-bottom: 0;
+}
+.section-title h2{
+  font-size: 1.8rem;
+}
+.breadcrumb-nav{
+  display: none;
+}
+}
+@media only screen and (max-width: 800px) {
+.breadcrumb-nav{
+  display: none;
+}
+}
+
+</style>

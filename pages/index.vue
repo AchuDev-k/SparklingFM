@@ -8,4 +8,4 @@ import HomeView from "@/views/HomeView";
 
 <style scoped>
 
-</style>
+</style>                      

@@ -98,7 +98,7 @@ defineProps(["menuItems", "activeLink"]);
   }
   .links li{
     margin-top: 0.5rem;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
   .copyright p{
     font-size: 0.5rem;
@@ -109,6 +109,9 @@ defineProps(["menuItems", "activeLink"]);
   .footer-widget {
   margin-top: 1rem;
   margin-right: 2rem;
+}
+.butter-logo{
+  display: none;
 }
 }
 @media screen and (max-width: 250px) {

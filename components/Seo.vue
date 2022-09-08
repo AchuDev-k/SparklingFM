@@ -4,7 +4,7 @@
     <Title>{{title}}</Title>
     <Meta name="description" :content="description" />
     <Meta v-if="image" name="image" :content="image" />
-    <Link rel="icon" href="../../butter-favicon.png" />
+    <Link rel="icon" href="https://i.ibb.co/QrC7C7b/logo.png" />
   </Head>
 </Html>
 </template>

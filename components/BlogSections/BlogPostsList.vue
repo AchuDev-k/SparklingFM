@@ -67,4 +67,9 @@ defineProps(["blogPosts"]);
 .tag{
   padding-right: 10px;
 }
+@media only screen and (max-width: 600px) {
+  .row{
+    margin-top: -11rem;
+  }
+}
 </style>

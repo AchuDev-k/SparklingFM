@@ -25,7 +25,8 @@ defineProps(["heading", "links", "text"]);
 <style scoped>
 @media only screen and (max-width: 600px) {
   .section-title{
-  margin-bottom: 0;
+    margin-top: -5rem;
+  margin-bottom: -4rem;
 }
 .section-title h2{
   font-size: 1.8rem;

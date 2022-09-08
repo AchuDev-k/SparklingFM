@@ -93,9 +93,6 @@ onMounted(() => {
   background-color: #fff;
   color: aliceblue;
 }
-.header{
-  background-color: orange !important;
-}
 li{
   margin-left: 20px;
   color: orange;

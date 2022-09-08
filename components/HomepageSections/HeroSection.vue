@@ -11,13 +11,6 @@ const props = defineProps(["fields"]);
 
 <style scoped>
 .header{
-  background: url('assets/images/background.jpeg');
-   /* Add the blur effect */
-  /* filter: blur(2px);
-  -webkit-filter: blur(2px); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin-top: 4rem;
   width: 100%;
   height: 650px;

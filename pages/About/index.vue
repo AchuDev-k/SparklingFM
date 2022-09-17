@@ -1,5 +1,5 @@
 <template>
-    <div class="header">
+    <div class="header" id="hero-top">
         <section>
             <h1>ABOUT US</h1>
        <p>Sparkling 92.3 fm is a radio station in the heart of Calabar, Cross River state, Nigeria. It was launched in 2018 to capture the thought, heart and mood of a diverse audience through our broad based but specific programming and music playlist.
@@ -21,11 +21,6 @@ You can check out our programmes and presenters.</p>
     </div>
 </template>
 
-<script setup>
-import BlogPostTile from "@/components/BlogPostTile.vue";
-
-defineProps(["blogPosts"]);
-</script>
 
 <style scoped>
 section{

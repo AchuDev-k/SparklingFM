@@ -36,6 +36,7 @@
     </div>
 </template>
 
+
 <style scoped>
 .header{
 margin-top: 200px;

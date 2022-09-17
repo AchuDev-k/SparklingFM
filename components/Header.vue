@@ -74,7 +74,6 @@ onMounted(() => {
                     <li><nuxt-link tag="li"  to="/Oap" class="nuxt-link-exact-active">OAPs</nuxt-link></li>
                     <li><nuxt-link to="/blog/" class="nuxt-link-exact-active">News</nuxt-link></li>
                     <li tag="li"><nuxt-link to="/Program" class="nuxt-link-exact-active">Programmes</nuxt-link></li>
-                    <li> <a href="https://mixlr.com/sparkling923fm--2" class="nuxt-link-exact-active">Listen Live</a> </li>
                     <li><nuxt-link to="/Contact" class="nuxt-link-exact-active">Contact</nuxt-link></li>
                     
                   </ul>

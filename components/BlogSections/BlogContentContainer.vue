@@ -18,6 +18,7 @@ import BlogWidget from "./BlogWidget.vue";
 import {useCategories} from "@/composables/hooks";
 
 const { categories } = useCategories();
+
 </script>
 
 <style scoped></style>

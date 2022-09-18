@@ -11,7 +11,6 @@
     </div>
     <div class="hero-links">
       <a style="background-color:rgba(229, 137, 70, 1);" href="https://mixlr.com/sparkling923fm--2" class=" listen nuxt-link-exact-active" id="listen">Listen Live</a>
-      <!-- <nuxt-link style="background-color:rgba(229, 137, 70, 1);" tag="li"  to="/about" class="nuxt-link-exact-active">Listen Live</nuxt-link> -->
       <nuxt-link class="second-link" to="/blog/">Read our Articles</nuxt-link>
     </div>
   </div>

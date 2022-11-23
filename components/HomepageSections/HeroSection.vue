@@ -10,7 +10,7 @@
       <p>Listen to exciting talks about sport, recent<br> news, dramas, relationships and many more on<br> sparkling FM</p>
     </div>
     <div class="hero-links">
-      <a style="background-color:rgba(229, 137, 70, 1);" href="https://mixlr.com/sparkling923fm--2" class=" listen nuxt-link-exact-active" id="listen">Listen Live</a>
+      <a style="background-color:rgba(229, 137, 70, 1);" href="#C4" class=" listen nuxt-link-exact-active" id="listen">Listen Live</a>
       <nuxt-link class="second-link" to="/blog/">Read our Articles</nuxt-link>
     </div>
   </div>
@@ -67,6 +67,11 @@
 </div>
   </div>
   </div>
+  <div class="iframe" id="C4">
+    <div>
+    <iframe loading="lazy" src="https://mixlr.com/users/2614208/embed" width="100%" height="180px" frameborder="no" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+  </div>
+  </div>
 </div>
 </template>
 
@@ -93,6 +98,11 @@ function carousel() {
 </script>
 
 <style scoped>
+.iframe{
+  margin-top: 6rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
 .mySlides{
   animation-duration: 3s;
   animation-name: fade;
@@ -291,6 +301,11 @@ img {vertical-align: middle;}
   .dot{
     display: none;
   }
+  .iframe{
+  margin-top: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 }
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {

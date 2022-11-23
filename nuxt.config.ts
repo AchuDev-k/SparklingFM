@@ -18,5 +18,6 @@ export default defineNuxtConfig({
         'plugins/ButterCMS.ts'
       ]
     }
-  }
-})
+  },
+});
+

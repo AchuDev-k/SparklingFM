@@ -1,4 +1,4 @@
-<!--<template>
+<template>
 <div class="body">
  <div class="hero">
   <div class="hero-article">
@@ -312,5 +312,5 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
-</style>-->
+</style>
 

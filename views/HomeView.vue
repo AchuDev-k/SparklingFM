@@ -34,6 +34,7 @@
 //     return null
 //   }
 // })
+<<<<<<< HEAD
 // onMounted(refresh)
 // // onMounted(() => {
 // //   handleMounted(refresh)
@@ -93,3 +94,58 @@
 //   }
 // }
 // </style>
+=======
+
+</script>
+
+<template>
+  <div>
+    <seo v-bind="data.pageData.fields.seo" />
+    <div v-for="(item, index) in data.pageData.fields.body">
+      <hero-section
+        v-if="item.type === 'hero'"
+        :key="index"
+        :fields="item.fields"
+      />
+    </div>
+    <blog-section :blog-posts="data.blogPosts" />
+    <section class="category">
+      <div class="widget categories-widget">
+      <h5 class="widget-title">Categories</h5>
+      <ul class="categories-list">
+        <li v-for="category in categories" :key="category.slug">
+          <nuxt-link :to="`/blog/category/${category.slug}/`">
+            {{ category.name }}
+          </nuxt-link>
+        </li>
+      </ul>
+    </div>
+    </section>
+    <div class="download">
+                <a href="../assets/files/advert.pdf" download="Advert">Advertisments? Click here -></a>
+        </div>
+  </div>
+</template>
+
+<style scoped>
+.category{
+  margin-top: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.download a{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+@media only screen and (max-width: 600px) {
+  .category{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .download{
+    margin-left: 1rem;
+  }
+}
+</style>
+>>>>>>> 76aed03 (feat: embed mixlr plugin)
